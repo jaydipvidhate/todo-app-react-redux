@@ -1,14 +1,13 @@
 .App {
   width: 100vw;
-  background-image: linear-gradient(to right, #2886ce,hsl(225, 89%, 53%));
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 60px 0;
+  padding: 200px 0;
 }
 
-.heading{
+.heading {
   font-size: 32px;
   font-weight: bold;
   color: #ffffff;
@@ -16,21 +15,21 @@
   margin-bottom: 40px;
 }
 
-.inputWrapper{
+.inputWrapper {
   width: 60%;
   display: flex;
 }
-.inputWrapper input{
- flex: 1;
- margin-right: 10px;
- padding: 10px 20px;
- border: none;
- border-radius: 4px;
- font-size: 18px;
- color: #000000;
- outline: none;
+.inputWrapper input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #000000;
+  outline: none;
 }
-.inputWrapper button{
+.inputWrapper button {
   font-size: 16px;
   border: none;
   padding: 10px 20px;
@@ -39,7 +38,7 @@
   cursor: pointer;
 }
 
-.buttonsWrapper{
+.buttonsWrapper {
   display: flex;
   width: 50%;
   justify-content: space-between;
@@ -47,7 +46,7 @@
   margin: 30px;
 }
 
-.buttonsWrapper button{
+.buttonsWrapper button {
   width: 32%;
   font-size: 16px;
   border: none;
@@ -58,39 +57,39 @@
   opacity: 0.6;
 }
 
-.buttonsWrapper button.active{
+.buttonsWrapper button.active {
   opacity: 1;
 }
 
-.todoListWrapper{
-display: flex;
-flex-direction: column;
-width: 60%;
+.todoListWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
-.todoCardWrapper{
+.todoCardWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-.todoCardWrapper input{
+.todoCardWrapper input {
   width: 20px;
   height: 20px;
   margin-right: 20px;
 }
 
-.todoCard{
+.todoCard {
   width: 100%;
-  background-color: rgb(223, 223, 223);
+  background-color: rgb(255, 255, 255);
   padding: 16px 20px;
   border-radius: 4px;
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.todoCard h4{
+.todoCard h4 {
   color: rgb(150, 7, 7);
   font-weight: bold;
   cursor: pointer;
